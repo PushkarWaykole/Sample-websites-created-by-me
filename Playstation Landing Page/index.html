@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Console Website
+    </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="logo.png" type="image/png" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="logo.png" class="logo" alt="">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="">Game Controllers</a></li>
+                    <li><a href="">VR Acccesories</a></li>
+                    <li><a href="">Media Remotes</a></li>
+                    <li><a href="">Others</a></li>
+                </ul>
+            </nav>
+            <img src="menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>PS4 V2 <br>Dualshock</h2>
+                <h3>Wireless Controller for Playstation 4</h3>
+                <p>(Compatible/Generic)</p>
+                <h4>$50.00</h4>
+                <button type="button">Buy Now <img src="arrow.png" alt=""></button>
+            </div>
+            <div class="col-2">
+                <img src="controller.png" class="controller" alt="">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                <img src="add.png" alt="">
+                    <p><small>Add to Cart</small></p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            
+                <p class="company-name">
+                    Playstation &copy; 2021, ALL Rights Reserved
+                </p>
+            </div>
+        </footer>
+
+
+
+<script>
+    var menuList=document.getElementById("menuList");
+
+    menuList.style.maxHeight="0px";
+    function togglemenu(){
+        if(menuList.style.maxHeight=="0px"){
+            menuList.style.maxHeight="130px";
+        }
+        else{
+            menuList.style.maxHeight="0px";
+        }
+    }
+
+    src="https://kit.fontawesome.com/66aa7c98b3.js"; crossorigin="anonymous";
+</script>
+    
+</body>
+</html>
